@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GAME TURBO BOOSTER"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnBoost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚡ BOOST PERFORMANCE &amp; CLEAN RAM"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gaya Crosshair:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgCrosshairStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbStyle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Style 1: Compass / Dot"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rbStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Style 2: Cross / Plus (+)" />
+
+            <RadioButton
+                android:id="@+id/rbStyle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Style 3: Circle / Search" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnStartCrosshair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 AKTIFKAN CROSSHAIR OVERLAY"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStopCrosshair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="❌ MATIKAN CROSSHAIR"
+            android:backgroundTint="#D32F2F" />
+
+    </LinearLayout>
+</ScrollView>
+              
